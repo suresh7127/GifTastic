@@ -1,0 +1,81 @@
+body{
+	background: url("/Users/sureshmahato/Desktop/GifTastic/assets/images/giphy.gif") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+h1{
+  color: aquamarine;
+	font-family: "verdana";
+	font-size: 90px;
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+
+.row{
+	margin-bottom: 4px;
+	margin-left: 3px;
+	margin-right: 300px;
+}
+
+.btn{
+	font-family: "verdana";
+	font-size: 20px;
+	background-color: #1c5677;
+	color: white;
+	padding: 5px 5px;
+}
+
+.btn:hover{
+	color: #efad07;
+}
+
+.btn:focus{
+	outline: 2px solid #efad07 !important;
+	background-color: #1680bc;
+	color: #efad07;
+}
+
+.animal-button{
+	margin: 5px 1px;
+}
+
+.solid-border{
+	border: 3px solid green;
+}
+
+.form-1{
+	font-family: "verdana";
+	font-size: 18px;
+	font-weight: 800;
+  color: brown;
+  margin-top: 100px;
+  
+}
+
+.gif-image{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2px 3px 2px 3px;
+}
+
+#submit{
+	margin-top: 1.5px;
+}
+
+#animal-gif{
+	margin-top: 1.5px;
+	width: 100%;
+}
+
+#animal-gif:focus{
+	outline: 2px solid #efad07 !important;
+}
+
+#gif-container{
+	font-size: 22px;
+}
