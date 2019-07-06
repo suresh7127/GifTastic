@@ -5,11 +5,11 @@ body{
 }
 
 h1{
-  color: aquamarine;
+  color: red;
 	font-family: "verdana";
 	font-size: 90px;
-	margin-top: 3px;
-	margin-bottom: 1px;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 .row{
@@ -21,13 +21,14 @@ h1{
 .btn{
 	font-family: "verdana";
 	font-size: 20px;
-	background-color: #1c5677;
+	background-color:blue;
 	color: white;
 	padding: 5px 5px;
 }
 
 .btn:hover{
 	color: #efad07;
+	background:white;
 }
 
 .btn:focus{
@@ -41,6 +42,7 @@ h1{
 }
 
 .solid-border{
+	margin-top: 100px;
 	border: 3px solid green;
 }
 
