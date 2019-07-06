@@ -17,4 +17,4 @@ HomeWork 6
 <br>
 8. Create function for still and animate images with if statement.
 <br>
-9. create event listner.
+9. Create event listner.

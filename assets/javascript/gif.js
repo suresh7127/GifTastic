@@ -1,7 +1,5 @@
 
 var topics = ["Cats", "Dogs", "Cows", "Lions","Tigers", "Elephants", "Bulls", "Hourses","Crows", "Pigs", "Rats", "Rabbits"];
-var numberOfGIFs = 10;
-var cutOffRating = "PG";
 
 function renderButtons(){
 	for(var i = 0; i < topics.length; i++) {
@@ -22,18 +20,18 @@ function renderButtons(){
 
 }
 
-function addButton(show){
-	if(topics.indexOf(show) === -1) {
-		topics.push(show);
+function addButton(animal){
+	if(topics.indexOf(animal) === -1) {
+		topics.push(animal);
 		$("#button-container").empty();
 		renderButtons();
 	}
 }
 
-function populateGIFContainer(show){
+function populateGIFContainer(animal){
 	$.ajax({
-		url: "https://api.giphy.com/v1/gifs/search?q=" + show + 
-		"&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&rating=" + cutOffRating + "&limit=" + numberOfGIFs,
+		url: "https://api.giphy.com/v1/gifs/search?q=" + animal + 
+		"&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&rating&limit=10",
 		method: "GET"
 	}).then(function(response){
 		response.data.forEach(function(element){
