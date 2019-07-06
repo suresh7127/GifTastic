@@ -1,20 +1,20 @@
 # GifTastic
 HomeWork 6
 
- create a variavles named 'topics'
+ 1. Create a variables named 'topics'
 <br>
-create an array of animals of your choise.
+2. Create an array of animals of your choise.
 <br>
-create function renderButtons and loopthrough the buttons.
+3. Create function renderButtons and loopthrough the buttons.
 <br>
-Add buttons to container div.
+4. Add buttons to container div.
 <br>
-Get url from GIPHY API for your data.
+5. Get url from GIPHY API for your data.
 <br>
-Call ajax.
+6. Call ajax.
 <br>
-Create functions to get images of your choise into the container.
+7. Create functions to get images of your choise into the container.
 <br>
-Create function for still and animate images with if statement.
+8. Create function for still and animate images with if statement.
 <br>
-create event listner.
+9. create event listner.
