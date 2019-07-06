@@ -32,7 +32,7 @@ h1{
 }
 
 .btn:focus{
-	outline: 2px solid #efad07 !important;
+	outline: 2px solid #efad07;
 	background-color: #1680bc;
 	color: #efad07;
 }
@@ -75,7 +75,7 @@ h1{
 }
 
 #animal-gif:focus{
-	outline: 2px solid #efad07 !important;
+	outline: 2px solid #efad07;
 }
 
 #gif-container{
