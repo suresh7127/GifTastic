@@ -1,5 +1,5 @@
 body{
-	background: url("/Users/sureshmahato/Desktop/GifTastic/assets/images/giphy.gif") no-repeat center center fixed;
+	background: url("assets/images/giphy.gif");
 	background-size: cover;
 
 }
