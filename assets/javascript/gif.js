@@ -1,6 +1,5 @@
 
 var topics = ["Cats", "Dogs", "Cows", "Lions","Tigers", "Elephants", "Bulls", "Hourses","Crows", "Pigs", "Rats", "Rabbits"];
-
 function renderButtons(){
 	for(var i = 0; i < topics.length; i++) {
 		var newButton = $("<button>");
@@ -30,8 +29,7 @@ function addButton(animal){
 
 function populateGIFContainer(animal){
 	$.ajax({
-		url: "https://api.giphy.com/v1/gifs/search?q=" + animal + 
-		"&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&rating&limit=10",
+		url: "https://api.giphy.com/v1/gifs/search?api_key=a6buS4cX72zbV9E4RwoxtBAabpHQuQi7&q="+animal+"&limit=10&offset=0&rating=PG&lang=en",
 		method: "GET"
 	}).then(function(response){
 		response.data.forEach(function(element){
